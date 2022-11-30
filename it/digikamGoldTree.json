@@ -1,0 +1,577 @@
+[
+    {
+        "path": "$MOUNT_POINT",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/photos/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/photos/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/photos/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/photos/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/photos/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/photos/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/photos/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/photos/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/photos/0048360c4b329c9b14925fe2db2a7b34.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_6603.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/photos/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/photos/f5e76142783d0c7466b4bcc8fcc9afff.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/photos/17db9d693f682a894fb0ff538dccb972.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0340_BW.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/photos/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/photos/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/photos/d5b701b4043c51007430119971b17ae2.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0196.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/photos/fa1f19e1bc9216e68689acd11044b0ed.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03331.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/photos/0048360c4b329c9b14925fe2db2a7b34.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_6603.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/photos/17db9d693f682a894fb0ff538dccb972.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0340_BW.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/photos/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/photos/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/photos/d5b701b4043c51007430119971b17ae2.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0196.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/photos/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/photos/f5e76142783d0c7466b4bcc8fcc9afff.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/photos/fa1f19e1bc9216e68689acd11044b0ed.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03331.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/photos/0048360c4b329c9b14925fe2db2a7b34.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_6603.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/photos/17db9d693f682a894fb0ff538dccb972.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0340_BW.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/photos/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/photos/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/photos/d5b701b4043c51007430119971b17ae2.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0196.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/photos/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/photos/0048360c4b329c9b14925fe2db2a7b34.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_6603.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/photos/17db9d693f682a894fb0ff538dccb972.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0340_BW.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/photos/d5b701b4043c51007430119971b17ae2.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0196.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/photos/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/photos/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/photos/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/photos/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/photos/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/photos/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/tags",
+        "mode": 2147483648
+    }
+]
