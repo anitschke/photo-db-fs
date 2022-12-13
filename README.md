@@ -45,3 +45,18 @@ example:
 
 [anitschk@localhost ~]$ kill %1
 ```
+
+## Automatically Mounting
+The current recommendation to automatically mount is to use a systemd service file to automatically run `photo-db-fs`. For example see the `photo-db-fs.service` file in this folder. To install as a user service run
+```
+mkdir -p ~/.config/systemd/user/
+cp photo-db-fs.service ~/.config/systemd/user/
+systemctl --user enable photo-db-fs.service
+systemctl --user start photo-db-fs.service
+```
+
+<details>
+  <summary>Correct way automatically mount</summary>
+
+A systemd .service file isn't really the right way to do this. The correct way would be to hook it up via /etc/fstab or a systemd .mount file instead. There is some good discussion on how rclone (also written in Go) does this and it sounds like they need to do some interpreting/translating of how  `mount` passes it the options because it is a little non-standard. I did some looking in their source but don't see anything obvious as to how they are doing it. see [rclone doc](https://rclone.org/commands/rclone_mount/#rclone-as-unix-mount-helper)
+</details>
