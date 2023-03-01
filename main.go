@@ -2,51 +2,48 @@ package main
 
 import (
 	"context"
-	"flag"
 	"fmt"
 	"os"
 	"os/signal"
 	"syscall"
 
+	"github.com/anitschke/photo-db-fs/config"
 	"github.com/anitschke/photo-db-fs/db"
 	_ "github.com/anitschke/photo-db-fs/db/register"
 	"github.com/anitschke/photo-db-fs/photofs"
+	"github.com/anitschke/photo-db-fs/types"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
 
-var mountPointFlag = flag.String("mount-point", "", "location where photo-db-fs file system will be mounted")
-var dbTypeFlag = flag.String("db-type", "", "type of photo database photo-db-fs will use for querying")
-var dbSource = flag.String("db-source", "", "source of the database photo-db-fs will use for querying, ie for local databases this is the path to the database")
-
-var logLevelFlag = flag.String("log-level", "", "debugging logging level")
-
 func main() {
-	flag.Parse()
-
-	if *mountPointFlag == "" {
-		fmt.Println("--mount-point flag is required")
-		return
-	}
-	if *dbTypeFlag == "" {
-		fmt.Println("--db-type flag is required")
-		return
-	}
-	if *dbSource == "" {
-		fmt.Println("--db-source flag is required")
-		return
-	}
-
-	logger, err := setupLogging()
+	cfg, err := config.Parse()
 	if err != nil {
 		fmt.Println(err)
-		return
+		os.Exit(1)
+	}
+
+	queries, err := types.ConfigsToQueries(cfg.Queries)
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+
+	if err := types.ValidateQueryConfigs(cfg.Queries); err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+
+	logger, err := setupLogging(cfg.LogLevel)
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
 	}
 	defer logger.Sync()
 
 	ctx := context.Background()
 
-	db, err := db.New(*dbTypeFlag, *dbSource)
+	db, err := db.New(cfg.DB.Type, cfg.DB.Source)
 	if err != nil {
 		zap.L().Fatal("failed to connect to database", zap.Error(err))
 	}
@@ -57,12 +54,12 @@ func main() {
 		}
 	}()
 
-	server, err := photofs.Mount(ctx, *mountPointFlag, db)
+	server, err := photofs.Mount(ctx, cfg.MountPoint, db, queries)
 	if err != nil {
 		zap.L().Fatal("failed to mount file system", zap.Error(err))
 		return
 	}
-	zap.L().Debug("photo-db-fs mounted", zap.String("mountPoint", *mountPointFlag))
+	zap.L().Debug("photo-db-fs mounted", zap.String("mountPoint", cfg.MountPoint))
 
 	doneC := make(chan struct{})
 	killC := make(chan os.Signal, 10) // As per signal package doc must be a big enough buffer
@@ -104,12 +101,12 @@ func main() {
 	close(doneC)
 }
 
-func setupLogging() (*zap.Logger, error) {
+func setupLogging(logLevel string) (*zap.Logger, error) {
 	zapConfig := zap.NewProductionConfig()
 
 	level := zap.ErrorLevel
-	if *logLevelFlag != "" {
-		if err := level.UnmarshalText([]byte(*logLevelFlag)); err != nil {
+	if logLevel != "" {
+		if err := level.UnmarshalText([]byte(logLevel)); err != nil {
 			return nil, fmt.Errorf("failed to parse log-level: %w", err)
 		}
 

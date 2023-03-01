@@ -13,6 +13,7 @@ import (
 	"github.com/anitschke/photo-db-fs/photofs"
 	digikamtestresources "github.com/anitschke/photo-db-fs/test-resources/digikam"
 	"github.com/anitschke/photo-db-fs/testtools"
+	"github.com/anitschke/photo-db-fs/types"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -31,7 +32,10 @@ func TestDigikamIntegration(t *testing.T) {
 	db, err := db.New("digikam-sqlite", testDB)
 	assert.Nil(err)
 
-	server, err := photofs.Mount(ctx, mountPoint, db)
+	//xxx test
+	queries := []types.NamedQuery{}
+
+	server, err := photofs.Mount(ctx, mountPoint, db, queries)
 	assert.Nil(err)
 	serverDoneWG := sync.WaitGroup{}
 	serverDoneWG.Add(1)
