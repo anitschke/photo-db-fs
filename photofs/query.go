@@ -10,8 +10,6 @@ import (
 	"github.com/hanwen/go-fuse/v2/fuse"
 )
 
-//xxx test
-
 // rootQueriesNode is the top FUSE directory that contains a folder of all the
 // queries
 type rootQueriesNode struct {
