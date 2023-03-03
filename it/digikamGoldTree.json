@@ -4,6 +4,53 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/queries",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/queries/KayakingOrSkiing",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/queries/KayakingOrSkiing/0048360c4b329c9b14925fe2db2a7b34.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_6603.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/queries/KayakingOrSkiing/17db9d693f682a894fb0ff538dccb972.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0340_BW.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/queries/KayakingOrSkiing/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/queries/KayakingOrSkiing/d5b701b4043c51007430119971b17ae2.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0196.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/queries/Rafter1OrKayaker",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/queries/Rafter1OrKayaker/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/queries/Rafter1OrKayaker/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/queries/Rafter1OrKayaker/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags",
         "mode": 2147483648
     },

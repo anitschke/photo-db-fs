@@ -15,15 +15,16 @@ import (
 	"time"
 
 	"github.com/anitschke/photo-db-fs/db"
+	"github.com/anitschke/photo-db-fs/types"
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
 
-func Mount(ctx context.Context, mountPoint string, db db.DB) (*fuse.Server, error) {
+func Mount(ctx context.Context, mountPoint string, db db.DB, queries []types.NamedQuery) (*fuse.Server, error) {
 
-	root, err := NewRoot(ctx, db)
+	root, err := NewRoot(ctx, db, queries)
 	if err != nil {
 		zap.L().Fatal("failed to create file system", zap.Error(err))
 	}

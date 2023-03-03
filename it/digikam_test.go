@@ -13,6 +13,7 @@ import (
 	"github.com/anitschke/photo-db-fs/photofs"
 	digikamtestresources "github.com/anitschke/photo-db-fs/test-resources/digikam"
 	"github.com/anitschke/photo-db-fs/testtools"
+	"github.com/anitschke/photo-db-fs/types"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -31,7 +32,32 @@ func TestDigikamIntegration(t *testing.T) {
 	db, err := db.New("digikam-sqlite", testDB)
 	assert.Nil(err)
 
-	server, err := photofs.Mount(ctx, mountPoint, db)
+	queries := []types.NamedQuery{
+		{
+			Name: "Rafter1OrKayaker",
+			Query: types.Query{
+				Selector: types.Or{
+					Operands: []types.Selector{
+						types.HasTag{Tag: types.Tag{Path: []string{"People", "rafter1"}}},
+						types.HasTag{Tag: types.Tag{Path: []string{"People", "kayaker"}}},
+					},
+				},
+			},
+		},
+		{
+			Name: "KayakingOrSkiing",
+			Query: types.Query{
+				Selector: types.Or{
+					Operands: []types.Selector{
+						types.HasTag{Tag: types.Tag{Path: []string{"activity", "watersports", "kayaking"}}},
+						types.HasTag{Tag: types.Tag{Path: []string{"activity", "skiing"}}},
+					},
+				},
+			},
+		},
+	}
+
+	server, err := photofs.Mount(ctx, mountPoint, db, queries)
 	assert.Nil(err)
 	serverDoneWG := sync.WaitGroup{}
 	serverDoneWG.Add(1)
@@ -57,7 +83,7 @@ func TestDigikamIntegration(t *testing.T) {
 			actJPEGFileCount++
 		}
 	}
-	expJPEGFileCount := 39
+	expJPEGFileCount := 46
 	assert.Equal(actJPEGFileCount, expJPEGFileCount)
 
 	// Before we compare against or save the gold file we need to rip the mount

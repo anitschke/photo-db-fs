@@ -14,6 +14,7 @@ integrationtests
 Lookuper
 mattn
 photofs
+rclone
 Readdirer
 stretchr
 Subquery

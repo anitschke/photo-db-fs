@@ -5,6 +5,11 @@ type Query struct {
 	Selector Selector
 }
 
+type NamedQuery struct {
+	Name string
+	Query
+}
+
 // Selector represents a method of selecting specific photos within our
 // database.
 type Selector interface {
