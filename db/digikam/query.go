@@ -2,6 +2,7 @@ package digikam
 
 import (
 	"fmt"
+	"strconv"
 
 	"github.com/anitschke/photo-db-fs/types"
 )
@@ -15,7 +16,7 @@ const photoInfoCTEName = "image_info"
 // a single row/table so we can build simple queries off of that single row.
 const photoInfoCTE = `
 WITH ` + photoInfoCTEName + ` as (
-SELECT r.specificPath AS root, a.relativePath AS path, i.name AS name, i.uniqueHash AS uniqueHash, t.id AS tagId 
+SELECT r.specificPath AS root, a.relativePath AS path, i.name AS name, i.uniqueHash AS uniqueHash, t.id AS tagId, ii.rating AS rating 
 FROM Images i 
 LEFT JOIN ImageTags it ON it.imageid = i.id 
 LEFT JOIN ImageInformation ii ON ii.imageid = i.id 
@@ -83,6 +84,12 @@ func (v selectorVisitor) VisitHasTag(s types.HasTag) (interface{}, error) {
 	}
 
 	return result, nil
+}
+
+func (v selectorVisitor) VisitHasRating(s types.HasRating) (interface{}, error) {
+	return visitResult{
+		query: "SELECT " + photoProperties + " FROM " + photoInfoCTEName + " WHERE rating " + s.Operator + " " + strconv.Itoa(s.Rating),
+	}, nil
 }
 
 func (v selectorVisitor) VisitAnd(s types.And) (interface{}, error) {

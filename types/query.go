@@ -22,6 +22,7 @@ type Selector interface {
 
 type SelectorVisitor interface {
 	VisitHasTag(s HasTag) (interface{}, error)
+	VisitHasRating(s HasRating) (interface{}, error)
 	VisitAnd(s And) (interface{}, error)
 	VisitOr(s Or) (interface{}, error)
 	VisitDifference(s Difference) (interface{}, error)
@@ -36,6 +37,21 @@ var _ = (Selector)(HasTag{})
 
 func (s HasTag) Accept(v SelectorVisitor) (interface{}, error) {
 	return v.VisitHasTag(s)
+}
+
+// HasRating is a selector for selecting photos that have a specific rating
+//
+// More generally speaking HasRating can use any comparison operator, so for
+// example we can select photos that have a rating greater than or equal to 4
+type HasRating struct {
+	Operator string //xxx make sure we validate this and maybe just make an enum
+	Rating   int
+}
+
+var _ = (Selector)(HasRating{})
+
+func (s HasRating) Accept(v SelectorVisitor) (interface{}, error) {
+	return v.VisitHasRating(s)
 }
 
 // And is a selector for selecting photos that meet ALL of the specified sub

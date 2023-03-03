@@ -154,13 +154,11 @@ func TestDigikamSqliteDatabase_Photos_basic_tag(t *testing.T) {
 		assert.Nil(err)
 	}()
 
-	selector := types.HasTag(
-		types.HasTag{
-			Tag: types.Tag{
-				Path: []string{"activity", "skiing"},
-			},
+	selector := types.HasTag{
+		Tag: types.Tag{
+			Path: []string{"activity", "skiing"},
 		},
-	)
+	}
 
 	q := types.Query{
 		Selector: selector,
@@ -182,6 +180,96 @@ func TestDigikamSqliteDatabase_Photos_basic_tag(t *testing.T) {
 		{
 			Path: libraryRoot + "/album2/DSC_6603.jpg",
 			ID:   "0048360c4b329c9b14925fe2db2a7b34",
+		},
+	}
+
+	assert.ElementsMatch(actPhotos, expPhotos)
+}
+
+func TestDigikamSqliteDatabase_Photos_basic_rating(t *testing.T) {
+	assert := assert.New(t)
+
+	testDB, libraryRoot, cleanup, err := digikamtestresources.PrepareBasicDB()
+	assert.Nil(err)
+	defer cleanup()
+
+	db, err := NewDigikamSqliteDatabase(testDB)
+	assert.Nil(err)
+	defer func() {
+		err = db.Close()
+		assert.Nil(err)
+	}()
+
+	selector := types.HasRating{
+		Operator: "==",
+		Rating:   5,
+	}
+
+	q := types.Query{
+		Selector: selector,
+	}
+
+	ctx := context.Background()
+	actPhotos, err := db.Photos(ctx, q)
+	assert.Nil(err)
+
+	expPhotos := []types.Photo{
+		{
+			Path: libraryRoot + "/album1/GRAND_00626.jpg",
+			ID:   "35f0ac735f2e0f585cac5b918bf98bf3",
+		},
+		{
+			Path: libraryRoot + "/album1/GRAND_00896.jpg",
+			ID:   "de7303f2c490dc1b3fe23b0e17277542",
+		},
+	}
+
+	assert.ElementsMatch(actPhotos, expPhotos)
+}
+
+func TestDigikamSqliteDatabase_Photos_basic_rating_greaterThanOrEqual(t *testing.T) {
+	assert := assert.New(t)
+
+	testDB, libraryRoot, cleanup, err := digikamtestresources.PrepareBasicDB()
+	assert.Nil(err)
+	defer cleanup()
+
+	db, err := NewDigikamSqliteDatabase(testDB)
+	assert.Nil(err)
+	defer func() {
+		err = db.Close()
+		assert.Nil(err)
+	}()
+
+	selector := types.HasRating{
+		Operator: ">=",
+		Rating:   4,
+	}
+
+	q := types.Query{
+		Selector: selector,
+	}
+
+	ctx := context.Background()
+	actPhotos, err := db.Photos(ctx, q)
+	assert.Nil(err)
+
+	expPhotos := []types.Photo{
+		{
+			Path: libraryRoot + "/album1/GRAND_00626.jpg",
+			ID:   "35f0ac735f2e0f585cac5b918bf98bf3",
+		},
+		{
+			Path: libraryRoot + "/album1/GRAND_00896.jpg",
+			ID:   "de7303f2c490dc1b3fe23b0e17277542",
+		},
+		{
+			Path: libraryRoot + "/album1/GRAND_01471.jpg",
+			ID:   "8c91175a9a7cac20d821835e92091154",
+		},
+		{
+			Path: libraryRoot + "/album1/GRAND_02763.jpg",
+			ID:   "3ca473635db0f321144be7fd8774deb4",
 		},
 	}
 
