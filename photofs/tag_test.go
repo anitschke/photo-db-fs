@@ -8,14 +8,12 @@ import (
 	"path/filepath"
 	"sync"
 	"testing"
-	"time"
 
 	"github.com/anitschke/photo-db-fs/db"
 	"github.com/anitschke/photo-db-fs/db/mocks"
 	"github.com/anitschke/photo-db-fs/testtools"
 	"github.com/anitschke/photo-db-fs/types"
 	"github.com/hanwen/go-fuse/v2/fs"
-	"github.com/hanwen/go-fuse/v2/fuse"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )
@@ -25,39 +23,9 @@ func rootTagInode(ctx context.Context, db db.DB) (fs.InodeEmbedder, error) {
 	return n.INode(ctx)
 }
 
-func mountTestFs(mountPoint string, root fs.InodeEmbedder) (*fuse.Server, error) {
-
-	// To more closely replicate what we are doing in production so we can lock
-	// down that minimal db calls are made when inode caching is turned on we
-	// will also enable caching/timeout in tests. (but with an even longer value
-	// to prevent any sort of sporadic)
-	timeout := time.Hour
-
-	return fs.Mount(mountPoint, root, &fs.Options{
-		EntryTimeout:    &timeout,
-		AttrTimeout:     &timeout,
-		NegativeTimeout: &timeout,
-	})
-}
-
 func makeTag(path ...string) types.Tag {
 	return types.Tag{
 		Path: path,
-	}
-}
-
-func makeDirInfo(parts ...string) testtools.FileInfo {
-	return testtools.FileInfo{
-		Path: filepath.Join(parts...),
-		Mode: os.ModeDir,
-	}
-}
-
-func makeSymlinkInfo(path []string, target string) testtools.FileInfo {
-	return testtools.FileInfo{
-		Path:       filepath.Join(path...),
-		Mode:       os.ModeSymlink,
-		LinkTarget: target,
 	}
 }
 
@@ -90,7 +58,7 @@ func TestTagFS(t *testing.T) {
 	assert.Nil(err)
 	defer cleanup()
 
-	server, err := mountTestFs(mountPoint, tagRoot)
+	server, err := testtools.MountTestFs(mountPoint, tagRoot)
 	assert.Nil(err)
 	serverDoneWG := sync.WaitGroup{}
 	serverDoneWG.Add(1)
@@ -184,7 +152,7 @@ func TestTagFS_WalkTags(t *testing.T) {
 	assert.Nil(err)
 	defer cleanup()
 
-	server, err := mountTestFs(mountPoint, tagRoot)
+	server, err := testtools.MountTestFs(mountPoint, tagRoot)
 	assert.Nil(err)
 	serverDoneWG := sync.WaitGroup{}
 	serverDoneWG.Add(1)
@@ -202,34 +170,34 @@ func TestTagFS_WalkTags(t *testing.T) {
 	actTreeInfo, err := testtools.Walk(mountPoint)
 	assert.Nil(err)
 	expTreeInfo := []testtools.FileInfo{
-		makeDirInfo(mountPoint),
-		makeDirInfo(mountPoint, "a"),
-		makeDirInfo(mountPoint, "a", "tags"),
-		makeDirInfo(mountPoint, "a", "photos"),
-		makeDirInfo(mountPoint, "a", "tags", "a"),
-		makeDirInfo(mountPoint, "a", "tags", "b"),
-		makeDirInfo(mountPoint, "a", "tags", "c"),
-		makeDirInfo(mountPoint, "a", "tags", "a", "tags"),
-		makeDirInfo(mountPoint, "a", "tags", "b", "tags"),
-		makeDirInfo(mountPoint, "a", "tags", "c", "tags"),
-		makeDirInfo(mountPoint, "a", "tags", "a", "photos"),
-		makeDirInfo(mountPoint, "a", "tags", "b", "photos"),
-		makeDirInfo(mountPoint, "a", "tags", "c", "photos"),
-		makeDirInfo(mountPoint, "b"),
-		makeDirInfo(mountPoint, "b", "tags"),
-		makeDirInfo(mountPoint, "b", "photos"),
-		makeDirInfo(mountPoint, "b", "tags", "a"),
-		makeDirInfo(mountPoint, "b", "tags", "b"),
-		makeDirInfo(mountPoint, "b", "tags", "c"),
-		makeDirInfo(mountPoint, "b", "tags", "a", "tags"),
-		makeDirInfo(mountPoint, "b", "tags", "b", "tags"),
-		makeDirInfo(mountPoint, "b", "tags", "c", "tags"),
-		makeDirInfo(mountPoint, "b", "tags", "a", "photos"),
-		makeDirInfo(mountPoint, "b", "tags", "b", "photos"),
-		makeDirInfo(mountPoint, "b", "tags", "c", "photos"),
-		makeDirInfo(mountPoint, "c"),
-		makeDirInfo(mountPoint, "c", "tags"),
-		makeDirInfo(mountPoint, "c", "photos"),
+		testtools.MakeDirInfo(mountPoint),
+		testtools.MakeDirInfo(mountPoint, "a"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags"),
+		testtools.MakeDirInfo(mountPoint, "a", "photos"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "a"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "b"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "c"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "a", "tags"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "b", "tags"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "c", "tags"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "a", "photos"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "b", "photos"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "c", "photos"),
+		testtools.MakeDirInfo(mountPoint, "b"),
+		testtools.MakeDirInfo(mountPoint, "b", "tags"),
+		testtools.MakeDirInfo(mountPoint, "b", "photos"),
+		testtools.MakeDirInfo(mountPoint, "b", "tags", "a"),
+		testtools.MakeDirInfo(mountPoint, "b", "tags", "b"),
+		testtools.MakeDirInfo(mountPoint, "b", "tags", "c"),
+		testtools.MakeDirInfo(mountPoint, "b", "tags", "a", "tags"),
+		testtools.MakeDirInfo(mountPoint, "b", "tags", "b", "tags"),
+		testtools.MakeDirInfo(mountPoint, "b", "tags", "c", "tags"),
+		testtools.MakeDirInfo(mountPoint, "b", "tags", "a", "photos"),
+		testtools.MakeDirInfo(mountPoint, "b", "tags", "b", "photos"),
+		testtools.MakeDirInfo(mountPoint, "b", "tags", "c", "photos"),
+		testtools.MakeDirInfo(mountPoint, "c"),
+		testtools.MakeDirInfo(mountPoint, "c", "tags"),
+		testtools.MakeDirInfo(mountPoint, "c", "photos"),
 	}
 
 	assert.ElementsMatch(actTreeInfo, expTreeInfo)
@@ -311,7 +279,7 @@ func TestTagFS_WalkPhotos(t *testing.T) {
 	assert.Nil(err)
 	defer cleanup()
 
-	server, err := mountTestFs(mountPoint, tagRoot)
+	server, err := testtools.MountTestFs(mountPoint, tagRoot)
 	assert.Nil(err)
 	serverDoneWG := sync.WaitGroup{}
 	serverDoneWG.Add(1)
@@ -329,20 +297,20 @@ func TestTagFS_WalkPhotos(t *testing.T) {
 	actTreeInfo, err := testtools.Walk(mountPoint)
 	assert.Nil(err)
 	expTreeInfo := []testtools.FileInfo{
-		makeDirInfo(mountPoint),
-		makeDirInfo(mountPoint, "a"),
-		makeDirInfo(mountPoint, "a", "tags"),
-		makeDirInfo(mountPoint, "a", "photos"),
-		makeSymlinkInfo([]string{mountPoint, "a", "photos", "taggedByA1.jpg"}, taggedByA1.Path),
-		makeSymlinkInfo([]string{mountPoint, "a", "photos", "taggedByA2.jpg"}, taggedByA2.Path),
-		makeSymlinkInfo([]string{mountPoint, "a", "photos", "taggedByAandAA.jpg"}, taggedByAandAA.Path),
+		testtools.MakeDirInfo(mountPoint),
+		testtools.MakeDirInfo(mountPoint, "a"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags"),
+		testtools.MakeDirInfo(mountPoint, "a", "photos"),
+		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "photos", "taggedByA1.jpg"}, taggedByA1.Path),
+		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "photos", "taggedByA2.jpg"}, taggedByA2.Path),
+		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "photos", "taggedByAandAA.jpg"}, taggedByAandAA.Path),
 
-		makeDirInfo(mountPoint, "a", "tags", "a"),
-		makeDirInfo(mountPoint, "a", "tags", "a", "tags"),
-		makeDirInfo(mountPoint, "a", "tags", "a", "photos"),
-		makeSymlinkInfo([]string{mountPoint, "a", "tags", "a", "photos", "taggedByAA1.jpg"}, taggedByAA1.Path),
-		makeSymlinkInfo([]string{mountPoint, "a", "tags", "a", "photos", "taggedByAA2.jpg"}, taggedByAA2.Path),
-		makeSymlinkInfo([]string{mountPoint, "a", "tags", "a", "photos", "taggedByAandAA.jpg"}, taggedByAandAA.Path),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "a"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "a", "tags"),
+		testtools.MakeDirInfo(mountPoint, "a", "tags", "a", "photos"),
+		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "tags", "a", "photos", "taggedByAA1.jpg"}, taggedByAA1.Path),
+		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "tags", "a", "photos", "taggedByAA2.jpg"}, taggedByAA2.Path),
+		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "tags", "a", "photos", "taggedByAandAA.jpg"}, taggedByAandAA.Path),
 	}
 
 	assert.ElementsMatch(actTreeInfo, expTreeInfo)

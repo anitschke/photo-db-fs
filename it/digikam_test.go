@@ -32,8 +32,30 @@ func TestDigikamIntegration(t *testing.T) {
 	db, err := db.New("digikam-sqlite", testDB)
 	assert.Nil(err)
 
-	//xxx test
-	queries := []types.NamedQuery{}
+	queries := []types.NamedQuery{
+		{
+			Name: "Rafter1OrKayaker",
+			Query: types.Query{
+				Selector: types.Or{
+					Operands: []types.Selector{
+						types.HasTag{Tag: types.Tag{Path: []string{"People", "rafter1"}}},
+						types.HasTag{Tag: types.Tag{Path: []string{"People", "kayaker"}}},
+					},
+				},
+			},
+		},
+		{
+			Name: "KayakingOrSkiing",
+			Query: types.Query{
+				Selector: types.Or{
+					Operands: []types.Selector{
+						types.HasTag{Tag: types.Tag{Path: []string{"activity", "watersports", "kayaking"}}},
+						types.HasTag{Tag: types.Tag{Path: []string{"activity", "skiing"}}},
+					},
+				},
+			},
+		},
+	}
 
 	server, err := photofs.Mount(ctx, mountPoint, db, queries)
 	assert.Nil(err)
@@ -61,7 +83,7 @@ func TestDigikamIntegration(t *testing.T) {
 			actJPEGFileCount++
 		}
 	}
-	expJPEGFileCount := 39
+	expJPEGFileCount := 46
 	assert.Equal(actJPEGFileCount, expJPEGFileCount)
 
 	// Before we compare against or save the gold file we need to rip the mount
