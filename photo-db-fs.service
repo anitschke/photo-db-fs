@@ -7,6 +7,3 @@ ExecStart=/home/anitschk/go/bin/photo-db-fs --mount-point /srv/media/photo-db-fs
 
 [Install]
 WantedBy=default.target
-
-# xxx https://superuser.com/questions/390348/a-systemd-script-for-s3ql-remote-fuse-mounting
-# use NetworkManager-wait-online.service
