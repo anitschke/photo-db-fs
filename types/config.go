@@ -6,7 +6,6 @@ import (
 	"strings"
 )
 
-// xxx doc
 type Config struct {
 	MountPoint string        `json:"mountPoint,omitempty"`
 	DB         DB            `json:"db"`
@@ -14,13 +13,11 @@ type Config struct {
 	Queries    []QueryConfig `json:"queries,omitempty"`
 }
 
-// xxx doc
 type DB struct {
 	Type   string `json:"type,omitempty"`
 	Source string `json:"source,omitempty"`
 }
 
-// xxx doc
 type QueryConfig struct {
 	Name     string         `json:"name,omitempty"`
 	Selector SelectorConfig `json:"selector"`
@@ -28,19 +25,32 @@ type QueryConfig struct {
 
 type SelectorPropertyMap map[string]SelectorProperty
 
-// xxx doc
 type SelectorConfig struct {
 	Type       string              `json:"type,omitempty"`
 	Properties SelectorPropertyMap `json:"properties,omitempty"`
 }
 
-// xxx doc
 type SelectorProperty struct {
 	Strings   []string         `json:"strings,omitempty"`
 	Selectors []SelectorConfig `json:"selectors,omitempty"`
 	Selector  *SelectorConfig  `json:"selector,omitempty"`
 }
 
+// ConfigToQuery takes a QueryConfig and transforms it into a NamedQuery.
+//
+// Ideally we would just directly deserialize the JSON into a NamedQuery object,
+// however the fact that the NamedQuery has a Selector which is an interface
+// makes this a little more complicated. Go json.Unmarshal doesn't support
+// deserializing JSON into the correct interface type because for a given blob
+// of JSON json.Unmarshal doesn't know what struct that fulfils that interface
+// it should deserialize it into. I could do this by making Query implement the
+// json.Unmarshaler interface, but then all the selectors that can have children
+// selectors also need to implement the json.Unmarshaler interface. So it just
+// seemed easier in the long run to declare a few custom struct that can handle
+// any selector AND that json.Unmarshal can handle for me. Then I just need to
+// implement that transform to the actual query. Not sure if this all payed off,
+// perhaps I should just suck it up and implement json.Unmarshaler. But it
+// works, so I am going to leave it as is for now.
 func ConfigToQuery(config QueryConfig) (NamedQuery, error) {
 	s, err := configToSelector(config.Selector)
 	if err != nil {

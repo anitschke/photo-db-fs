@@ -5,7 +5,6 @@ type Query struct {
 	Selector Selector
 }
 
-// xxx doc
 type NamedQuery struct {
 	Name string
 	Query
