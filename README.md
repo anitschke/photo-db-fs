@@ -1,7 +1,7 @@
 # photo-db-fs
 [![Release](https://github.com/anitschke/photo-db-fs/actions/workflows/release.yml/badge.svg)](https://github.com/anitschke/photo-db-fs/actions/workflows/release.yml) [![CI](https://github.com/anitschke/photo-db-fs/actions/workflows/ci.yml/badge.svg)](https://github.com/anitschke/photo-db-fs/actions/workflows/ci.yml) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/anitschke/photo-db-fs) [![Go Report Card](https://goreportcard.com/badge/github.com/anitschke/photo-db-fs)](https://goreportcard.com/report/github.com/anitschke/photo-db-fs)
 
-`photo-db-fs` is a FUSE virtual file system for Linux that exposes a photo database as a file system. At the moment it only supports digiKam but is built to be extensible so as to support other photo management programs in the future.
+`photo-db-fs` is a FUSE virtual file system for Linux that exposes a photo database as a file system. At the moment it only supports digiKam but is built to be extensible so as to support other photo management programs in the future. It currently supports exposing the entire tag hierarchy as a file system and also supports adding custom queries where the results of the query are exposed as a file system.
 
 ## Installation
 ### GitHub Release
@@ -17,6 +17,8 @@ go install github.com/anitschke/photo-db-fs@latest
 ```
 [anitschk@localhost ~]$ photo-db-fs -h
 Usage of photo-db-fs:
+  -config-file string
+        photo-db-fs config file
   -db-source string
         source of the database photo-db-fs will use for querying, 
         ie for local databases this is the path to the database
@@ -46,9 +48,131 @@ example:
 [anitschk@localhost ~]$ kill %1
 ```
 
-## Automatically Mounting
-The current recommendation to automatically mount is to use a systemd service file to automatically run `photo-db-fs`. For example see the `photo-db-fs.service` file in this folder. To install as a user service run
+Note that all flags may also be specified in the json config file specified by the `-config-file` flag.
+
+## Custom Queries
+By default `photo-db-fs` exposes the entire tag hierarchy as a file system, but it can also be configured to expose custom queries as a filesystem that can query the database for photos that match any arbitrary set operations of tags. These custom queries must be written in a json config file.
+
+For example the following config can be used to show a directory full of photos of kayaking in New York state, a second with photos of kayaking NOT in New York state, and a third with photos of kayaking AND canoeing.
+```json
+{
+    "queries" : [
+        {
+            "name": "KayakingNewYork",
+            "selector": {
+                "type": "and",
+                "properties": {
+                    "operands": { 
+                        "selectors": [
+                            {
+                                "type": "hasTag",
+                                "properties": {
+                                    "tag": {
+                                        "strings": [
+                                            "Activity", "Kayak"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "hasTag",
+                                "properties": {
+                                    "tag": {
+                                        "strings": [
+                                            "Location", "US", "NY"
+                                        ]
+                                    }
+                                }
+                            },
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "KayakingNotNewYork",
+            "selector": {
+                "type": "difference",
+                "properties": {
+                    "starting": { 
+                        "selector": {
+                            "type": "hasTag",
+                            "properties": {
+                                "tag": {
+                                    "strings": [
+                                        "Activity", "Kayak"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "excluding": {
+                        "selector": {
+                            "type": "hasTag",
+                            "properties": {
+                                "tag": {
+                                    "strings": [
+                                        "Location", "US", "NY"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "KayakingOrCanoeing",
+            "selector": {
+                "type": "or",
+                "properties": {
+                    "operands": { 
+                        "selectors": [
+                            {
+                                "type": "hasTag",
+                                "properties": {
+                                    "tag": {
+                                        "strings": [
+                                            "Activity", "Kayak"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "hasTag",
+                                "properties": {
+                                    "tag": {
+                                        "strings": [
+                                            "Activity", "Canoe"
+                                        ]
+                                    }
+                                }
+                            },
+                        ]
+                    }
+                }
+            }
+        },
+    ]
+}
 ```
+
+## Automatically Mounting
+The current recommendation to automatically mount is to use a systemd service file to automatically run `photo-db-fs`. For example see we could write the following `photo-db-fs.service` file. 
+```ini
+[Unit]
+Description=photo-db-fs FUSE file system server
+
+[Service]
+Type=simple
+ExecStart=/home/anitschk/go/bin/photo-db-fs --mount-point /srv/media/photo-db-fs --db-type digikam-sqlite --db-source /srv/media/digiKamDB/digikam4.db
+
+[Install]
+WantedBy=default.target
+```
+
+Then install as a user service using 
+```bash
 mkdir -p ~/.config/systemd/user/
 cp photo-db-fs.service ~/.config/systemd/user/
 systemctl --user enable photo-db-fs.service
