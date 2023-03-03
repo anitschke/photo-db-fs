@@ -1,7 +1,10 @@
 package config
 
 import (
+	"encoding/json"
 	"flag"
+	"fmt"
+	"os"
 
 	"github.com/anitschke/photo-db-fs/types"
 )
@@ -20,7 +23,14 @@ func Parse() (types.Config, error) {
 	var config types.Config
 
 	if *configFileFlag != "" {
-		//xxx parse config file
+		fileBytes, err := os.ReadFile(*configFileFlag)
+		if err != nil {
+			return types.Config{}, fmt.Errorf("failed to read config file %q: %w", *configFileFlag, err)
+		}
+
+		if err := json.Unmarshal(fileBytes, &config); err != nil {
+			return types.Config{}, fmt.Errorf("failed to parse config file %q as JSON: %w", *configFileFlag, err)
+		}
 	}
 
 	if *mountPointFlag != "" {
