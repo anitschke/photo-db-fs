@@ -35,14 +35,15 @@ func (n *rootQueriesNode) INode(ctx context.Context) (fs.InodeEmbedder, error) {
 func (n *rootQueriesNode) Children(ctx context.Context) (map[string]Node, error) {
 	nodes := make([]Node, 0, len(n.queries))
 	for _, q := range n.queries {
-		nodes = append(nodes, &queryNode{queryNodeInfo: queryNodeInfo{db: n.db, query: q}})
+		nodes = append(nodes, &queryNode{queryNodeInfo: queryNodeInfo{db: n.db, name: q.Name, query: q.Query}})
 	}
 	ignoreDups := false
 	return nodeSliceToNodeMap(nodes, ignoreDups)
 }
 
 type queryNodeInfo struct {
-	query types.NamedQuery
+	name  string
+	query types.Query
 	db    db.DB
 }
 
@@ -54,7 +55,7 @@ var _ = (Node)((*queryNode)(nil))
 var _ = (DirNode)((*queryNode)(nil))
 
 func (n *queryNode) Name() string {
-	return n.query.Name
+	return n.name
 }
 
 func (n *queryNode) Mode() uint32 {
@@ -66,9 +67,9 @@ func (n *queryNode) INode(ctx context.Context) (fs.InodeEmbedder, error) {
 }
 
 func (n *queryNode) Children(ctx context.Context) (map[string]Node, error) {
-	children, err := n.db.Photos(ctx, n.query.Query)
+	children, err := n.db.Photos(ctx, n.query)
 	if err != nil {
-		return nil, fmt.Errorf("failed perform named query %q: %w", n.query.Name, err)
+		return nil, fmt.Errorf("failed perform named query %q: %w", n.name, err)
 	}
 	return photoSliceToNodeMap(children)
 }
