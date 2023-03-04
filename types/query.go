@@ -1,5 +1,27 @@
 package types
 
+import "fmt"
+
+type RelationalOperator string
+
+const (
+	Equal              RelationalOperator = "=="
+	NotEqual           RelationalOperator = "!="
+	LessThan           RelationalOperator = "<"
+	LessThanOrEqual    RelationalOperator = "<="
+	GreaterThan        RelationalOperator = ">"
+	GreaterThanOrEqual RelationalOperator = ">="
+)
+
+func (ro RelationalOperator) Validate() error {
+	switch ro {
+	case Equal, NotEqual, LessThan, LessThanOrEqual, GreaterThan, GreaterThanOrEqual:
+		return nil
+	default:
+		return fmt.Errorf("%q is not a valid RelationalOperator", string(ro))
+	}
+}
+
 // Query represents the query for photos within our database.
 type Query struct {
 	Selector Selector
@@ -44,8 +66,8 @@ func (s HasTag) Accept(v SelectorVisitor) (interface{}, error) {
 // More generally speaking HasRating can use any comparison operator, so for
 // example we can select photos that have a rating greater than or equal to 4
 type HasRating struct {
-	Operator string //xxx make sure we validate this and maybe just make an enum
-	Rating   int
+	Operator RelationalOperator
+	Rating   float64
 }
 
 var _ = (Selector)(HasRating{})

@@ -87,8 +87,16 @@ func (v selectorVisitor) VisitHasTag(s types.HasTag) (interface{}, error) {
 }
 
 func (v selectorVisitor) VisitHasRating(s types.HasRating) (interface{}, error) {
+	if err := s.Operator.Validate(); err != nil {
+		return nil, err
+	}
+
+	if s.Rating != float64(int(s.Rating)) {
+		return nil, fmt.Errorf("rating must be a whole number")
+	}
+
 	return visitResult{
-		query: "SELECT " + photoProperties + " FROM " + photoInfoCTEName + " WHERE rating " + s.Operator + " " + strconv.Itoa(s.Rating),
+		query: "SELECT " + photoProperties + " FROM " + photoInfoCTEName + " WHERE rating " + string(s.Operator) + " " + strconv.Itoa(int(s.Rating)),
 	}, nil
 }
 
