@@ -75,6 +75,22 @@ func (_m *DB) Photos(ctx context.Context, q types.Query) ([]types.Photo, error) 
 	return r0, r1
 }
 
+// Ratings provides a mock function with given fields:
+func (_m *DB) Ratings() []float64 {
+	ret := _m.Called()
+
+	var r0 []float64
+	if rf, ok := ret.Get(0).(func() []float64); ok {
+		r0 = rf()
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).([]float64)
+		}
+	}
+
+	return r0
+}
+
 // RootTags provides a mock function with given fields: ctx
 func (_m *DB) RootTags(ctx context.Context) ([]types.Tag, error) {
 	ret := _m.Called(ctx)

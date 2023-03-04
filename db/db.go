@@ -21,6 +21,15 @@ type DB interface {
 	Photos(ctx context.Context, q types.Query) ([]types.Photo, error)
 	RootTags(ctx context.Context) ([]types.Tag, error)
 	ChildrenTags(ctx context.Context, parent types.Tag) ([]types.Tag, error)
+
+	// Ratings should return a slice of ratings that will be used to render a
+	// directory of folders based on these ratings. In most cases all possible
+	// Ratings should be returned, if there is more than a "reasonable" number
+	// of ratings exist then a subset of ratings that span the full range of
+	// possible ratings should be returned. The slice of ratings should be in
+	// acceding order.
+	Ratings() []float64
+
 	Close() error
 }
 

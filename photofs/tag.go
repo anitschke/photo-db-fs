@@ -65,9 +65,11 @@ func (n *tagNode) INode(ctx context.Context) (fs.InodeEmbedder, error) {
 }
 
 func (n *tagNode) Children(ctx context.Context) (map[string]Node, error) {
+	tagSelector := types.HasTag{Tag: n.tag}
 	childrenNodes := []Node{
 		&childTagsNode{tagNodeInfo: n.tagNodeInfo},
-		&queryNode{queryNodeInfo{db: n.db, name: "photos", query: types.Query{Selector: types.HasTag{Tag: n.tag}}}},
+		&ratingsParentNode{ratingsParentNodeInfo{db: n.db, baseSelector: tagSelector}},
+		&queryNode{queryNodeInfo{db: n.db, name: "photos", query: types.Query{Selector: tagSelector}}},
 	}
 	ignoreDups := false
 	return nodeSliceToNodeMap(childrenNodes, ignoreDups)

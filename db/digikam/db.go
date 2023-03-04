@@ -166,6 +166,10 @@ func (db *DigikamSQLDatabase) tags(ctx context.Context, parentPath []string, whe
 	return tags, nil
 }
 
+func (db *DigikamSQLDatabase) Ratings() []float64 {
+	return []float64{0, 1, 2, 3, 4, 5}
+}
+
 func (db *DigikamSQLDatabase) Close() error {
 	zap.L().Debug("db close")
 	return db.db.Close()
