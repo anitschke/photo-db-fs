@@ -27,6 +27,10 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
     },
     {
+        "path": "$MOUNT_POINT/a/ratings",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/a/tags",
         "mode": 2147483648
     },
@@ -52,6 +56,10 @@
         "path": "$MOUNT_POINT/a/tags/a/photos/taggedByAandAA.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/a/ratings",
+        "mode": 2147483648
     },
     {
         "path": "$MOUNT_POINT/a/tags/a/tags",

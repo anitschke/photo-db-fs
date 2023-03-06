@@ -10,8 +10,6 @@ import (
 	"github.com/hanwen/go-fuse/v2/fuse"
 )
 
-//xxx test
-
 type ratingsParentNodeInfo struct {
 	baseSelector types.Selector
 	db           db.DB
@@ -39,6 +37,11 @@ func (n *ratingsParentNode) INode(ctx context.Context) (fs.InodeEmbedder, error)
 func (n *ratingsParentNode) Children(ctx context.Context) (map[string]Node, error) {
 
 	ratings := n.db.Ratings()
+
+	if len(ratings) == 0 {
+		return map[string]Node{}, nil
+	}
+
 	children := make([]Node, 0, 2*len(ratings)-1)
 
 	maxRating := ratings[len(ratings)-1]

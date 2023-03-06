@@ -90,6 +90,12 @@ func TestTagFS_WalkTags(t *testing.T) {
 		nil,
 	)
 
+	// Make the test simpler by making the DB say that it doesn't have any ratings
+	tagDB.On("Ratings").Return(
+		[]float64{},
+		nil,
+	)
+
 	tagDB.On("RootTags", mock.Anything).Return(
 		[]types.Tag{
 			makeTag("a"),
@@ -196,6 +202,12 @@ func TestTagFS_WalkPhotos(t *testing.T) {
 		[]types.Tag{},
 		nil,
 	).Once()
+
+	// Make the test simpler by making the DB say that it doesn't have any ratings
+	tagDB.On("Ratings").Return(
+		[]float64{},
+		nil,
+	)
 
 	wd, err := os.Getwd()
 	if err != nil {
