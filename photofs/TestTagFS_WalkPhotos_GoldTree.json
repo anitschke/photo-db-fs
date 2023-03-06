@@ -14,17 +14,17 @@
     {
         "path": "$MOUNT_POINT/a/photos/taggedByA1.jpg",
         "mode": 134217728,
-        "linkTarget": "/home/anitschk/sandbox/photo-db-fs/test-resources/photos/basic/album1/GRAND_00626.jpg"
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
     },
     {
         "path": "$MOUNT_POINT/a/photos/taggedByA2.jpg",
         "mode": 134217728,
-        "linkTarget": "/home/anitschk/sandbox/photo-db-fs/test-resources/photos/basic/album1/GRAND_00896.jpg"
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
     },
     {
         "path": "$MOUNT_POINT/a/photos/taggedByAandAA.jpg",
         "mode": 134217728,
-        "linkTarget": "/home/anitschk/sandbox/photo-db-fs/test-resources/photos/basic/album1/GRAND_03476.jpg"
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
     },
     {
         "path": "$MOUNT_POINT/a/tags",
@@ -41,17 +41,17 @@
     {
         "path": "$MOUNT_POINT/a/tags/a/photos/taggedByAA1.jpg",
         "mode": 134217728,
-        "linkTarget": "/home/anitschk/sandbox/photo-db-fs/test-resources/photos/basic/album2/DSC_0196.jpg"
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0196.jpg"
     },
     {
         "path": "$MOUNT_POINT/a/tags/a/photos/taggedByAA2.jpg",
         "mode": 134217728,
-        "linkTarget": "/home/anitschk/sandbox/photo-db-fs/test-resources/photos/basic/album2/DSC_0340_BW.jpg"
+        "linkTarget": "$LIBRARY_ROOT/album2/DSC_0340_BW.jpg"
     },
     {
         "path": "$MOUNT_POINT/a/tags/a/photos/taggedByAandAA.jpg",
         "mode": 134217728,
-        "linkTarget": "/home/anitschk/sandbox/photo-db-fs/test-resources/photos/basic/album1/GRAND_03476.jpg"
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
     },
     {
         "path": "$MOUNT_POINT/a/tags/a/tags",

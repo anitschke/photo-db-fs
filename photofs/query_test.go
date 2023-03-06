@@ -110,28 +110,28 @@ func TestQueriesFS_WalkPhotos(t *testing.T) {
 		panic(err)
 	}
 
-	libraryRoot := "../test-resources/photos/basic"
+	libraryRoot := filepath.Join(wd, "..", "test-resources", "photos", "basic")
 
 	photo_q1 := types.Photo{
-		Path: filepath.Join(wd, libraryRoot+"/album1/GRAND_00626.jpg"),
+		Path: filepath.Join(libraryRoot, "album1", "GRAND_00626.jpg"),
 		ID:   "photo_q1",
 	}
 	photo_q2 := types.Photo{
-		Path: filepath.Join(wd, libraryRoot+"/album1/GRAND_00896.jpg"),
+		Path: filepath.Join(libraryRoot, "album1", "GRAND_00896.jpg"),
 		ID:   "photo_q2",
 	}
 
 	photo_q3 := types.Photo{
-		Path: filepath.Join(wd, libraryRoot+"/album2/DSC_0196.jpg"),
+		Path: filepath.Join(libraryRoot, "album2", "DSC_0196.jpg"),
 		ID:   "photo_q3",
 	}
 	photo_q1_q2 := types.Photo{
-		Path: filepath.Join(wd, libraryRoot+"/album2/DSC_0340_BW.jpg"),
+		Path: filepath.Join(libraryRoot, "album2", "DSC_0340_BW.jpg"),
 		ID:   "photo_q1_q2",
 	}
 
 	photo_q1_q3 := types.Photo{
-		Path: filepath.Join(wd, libraryRoot+"/album1/GRAND_03476.jpg"),
+		Path: filepath.Join(libraryRoot, "album1", "GRAND_03476.jpg"),
 		ID:   "photo_q1_q3",
 	}
 

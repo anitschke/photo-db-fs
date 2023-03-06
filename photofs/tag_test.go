@@ -202,28 +202,28 @@ func TestTagFS_WalkPhotos(t *testing.T) {
 		panic(err)
 	}
 
-	libraryRoot := "../test-resources/photos/basic"
+	libraryRoot := filepath.Join(wd, "..", "test-resources", "photos", "basic")
 
 	taggedByA1 := types.Photo{
-		Path: filepath.Join(wd, libraryRoot+"/album1/GRAND_00626.jpg"),
+		Path: filepath.Join(libraryRoot, "album1", "GRAND_00626.jpg"),
 		ID:   "taggedByA1",
 	}
 	taggedByA2 := types.Photo{
-		Path: filepath.Join(wd, libraryRoot+"/album1/GRAND_00896.jpg"),
+		Path: filepath.Join(libraryRoot, "album1", "GRAND_00896.jpg"),
 		ID:   "taggedByA2",
 	}
 
 	taggedByAA1 := types.Photo{
-		Path: filepath.Join(wd, libraryRoot+"/album2/DSC_0196.jpg"),
+		Path: filepath.Join(libraryRoot, "album2", "DSC_0196.jpg"),
 		ID:   "taggedByAA1",
 	}
 	taggedByAA2 := types.Photo{
-		Path: filepath.Join(wd, libraryRoot+"/album2/DSC_0340_BW.jpg"),
+		Path: filepath.Join(libraryRoot, "album2", "DSC_0340_BW.jpg"),
 		ID:   "taggedByAA2",
 	}
 
 	taggedByAandAA := types.Photo{
-		Path: filepath.Join(wd, libraryRoot+"/album1/GRAND_03476.jpg"),
+		Path: filepath.Join(libraryRoot, "album1", "GRAND_03476.jpg"),
 		ID:   "taggedByAandAA",
 	}
 
