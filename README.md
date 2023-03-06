@@ -158,7 +158,7 @@ For example the following config can be used to show a directory full of photos 
 ```
 
 ## Automatically Mounting
-The current recommendation to automatically mount is to use a systemd service file to automatically run `photo-db-fs`. For example see we could write the following `photo-db-fs.service` file. 
+The current recommendation to automatically mount is to use a systemd service file to automatically run `photo-db-fs`. For example see we could write the following [`photo-db-fs.service`](./photo-db-fs.service) file. 
 ```ini
 [Unit]
 Description=photo-db-fs FUSE file system server

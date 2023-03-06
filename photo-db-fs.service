@@ -1,0 +1,9 @@
+[Unit]
+Description=photo-db-fs FUSE file system server
+
+[Service]
+Type=simple
+ExecStart=/home/anitschk/go/bin/photo-db-fs --mount-point /srv/media/photo-db-fs --db-type digikam-sqlite --db-source /srv/media/digiKamDB/digikam4.db
+
+[Install]
+WantedBy=default.target
