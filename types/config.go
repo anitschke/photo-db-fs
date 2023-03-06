@@ -31,7 +31,9 @@ type SelectorConfig struct {
 }
 
 type SelectorProperty struct {
+	Number    float64          `json:"number,omitempty"`
 	Strings   []string         `json:"strings,omitempty"`
+	String    string           `json:"string,omitempty"`
 	Selectors []SelectorConfig `json:"selectors,omitempty"`
 	Selector  *SelectorConfig  `json:"selector,omitempty"`
 }
@@ -93,6 +95,8 @@ func configToSelector(config SelectorConfig) (Selector, error) {
 	switch t := strings.ToLower(config.Type); t {
 	case "hastag": // cspell:disable-line
 		return configToHasTag(config)
+	case "hasrating": // cspell:disable-line
+		return configToHasRatting(config)
 	case "and":
 		return configToAnd(config)
 	case "or":
@@ -110,6 +114,24 @@ func configToHasTag(config SelectorConfig) (Selector, error) {
 		switch n := strings.ToLower(name); n {
 		case "tag":
 			s.Tag.Path = p.Strings
+		default:
+			return nil, fmt.Errorf("invalid property %q", name)
+		}
+	}
+	return s, nil
+}
+
+func configToHasRatting(config SelectorConfig) (Selector, error) {
+	var s HasRating
+	for name, p := range config.Properties {
+		switch n := strings.ToLower(name); n {
+		case "operator":
+			s.Operator = RelationalOperator(p.String)
+			if err := s.Operator.Validate(); err != nil {
+				return nil, err
+			}
+		case "rating":
+			s.Rating = p.Number
 		default:
 			return nil, fmt.Errorf("invalid property %q", name)
 		}

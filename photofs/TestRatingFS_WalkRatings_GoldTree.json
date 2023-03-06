@@ -1,0 +1,26 @@
+[
+    {
+        "path": "$MOUNT_POINT",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/\u003e=2",
+        "mode": 2147483648
+    }
+]

@@ -1,5 +1,27 @@
 package types
 
+import "fmt"
+
+type RelationalOperator string
+
+const (
+	Equal              RelationalOperator = "=="
+	NotEqual           RelationalOperator = "!="
+	LessThan           RelationalOperator = "<"
+	LessThanOrEqual    RelationalOperator = "<="
+	GreaterThan        RelationalOperator = ">"
+	GreaterThanOrEqual RelationalOperator = ">="
+)
+
+func (ro RelationalOperator) Validate() error {
+	switch ro {
+	case Equal, NotEqual, LessThan, LessThanOrEqual, GreaterThan, GreaterThanOrEqual:
+		return nil
+	default:
+		return fmt.Errorf("%q is not a valid RelationalOperator", string(ro))
+	}
+}
+
 // Query represents the query for photos within our database.
 type Query struct {
 	Selector Selector
@@ -22,6 +44,7 @@ type Selector interface {
 
 type SelectorVisitor interface {
 	VisitHasTag(s HasTag) (interface{}, error)
+	VisitHasRating(s HasRating) (interface{}, error)
 	VisitAnd(s And) (interface{}, error)
 	VisitOr(s Or) (interface{}, error)
 	VisitDifference(s Difference) (interface{}, error)
@@ -36,6 +59,21 @@ var _ = (Selector)(HasTag{})
 
 func (s HasTag) Accept(v SelectorVisitor) (interface{}, error) {
 	return v.VisitHasTag(s)
+}
+
+// HasRating is a selector for selecting photos that have a specific rating
+//
+// More generally speaking HasRating can use any comparison operator, so for
+// example we can select photos that have a rating greater than or equal to 4
+type HasRating struct {
+	Operator RelationalOperator
+	Rating   float64
+}
+
+var _ = (Selector)(HasRating{})
+
+func (s HasRating) Accept(v SelectorVisitor) (interface{}, error) {
+	return v.VisitHasRating(s)
 }
 
 // And is a selector for selecting photos that meet ALL of the specified sub

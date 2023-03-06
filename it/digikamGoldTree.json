@@ -51,6 +51,194 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
     },
     {
+        "path": "$MOUNT_POINT/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==0/f5e76142783d0c7466b4bcc8fcc9afff.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==0/fa1f19e1bc9216e68689acd11044b0ed.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03331.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==4/3ca473635db0f321144be7fd8774deb4.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_02763.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==5/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/==5/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=0/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=0/3ca473635db0f321144be7fd8774deb4.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_02763.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=0/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=0/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=0/f5e76142783d0c7466b4bcc8fcc9afff.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=0/fa1f19e1bc9216e68689acd11044b0ed.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03331.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=1/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=1/3ca473635db0f321144be7fd8774deb4.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_02763.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=1/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=1/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=2/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=2/3ca473635db0f321144be7fd8774deb4.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_02763.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=2/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=2/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=3/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=3/3ca473635db0f321144be7fd8774deb4.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_02763.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=3/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=3/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=4/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=4/3ca473635db0f321144be7fd8774deb4.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_02763.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/ratings/\u003e=4/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags",
         "mode": 2147483648
     },
@@ -78,6 +266,144 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
     },
     {
+        "path": "$MOUNT_POINT/tags/People/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/==4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/==5/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/==5/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=0/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=0/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=0/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=1/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=1/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=1/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=2/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=2/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=2/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=3/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=3/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=3/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=4/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/ratings/\u003e=4/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags/People/tags",
         "mode": 2147483648
     },
@@ -87,6 +413,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/People/tags/Ignored/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Ignored/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -102,6 +476,54 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/tags/People/tags/Unconfirmed/tags",
         "mode": 2147483648
     },
@@ -111,6 +533,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/People/tags/Unknown/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/Unknown/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -127,6 +597,84 @@
     },
     {
         "path": "$MOUNT_POINT/tags/People/tags/kayaker/photos/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/==5/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/\u003e=0/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/\u003e=1/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/\u003e=2/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/\u003e=3/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/kayaker/ratings/\u003e=4/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
     },
@@ -153,6 +701,114 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
     },
     {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/==4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/==5/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=0/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=0/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=1/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=1/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=2/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=2/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=3/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=3/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter1/ratings/\u003e=4/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags/People/tags/rafter1/tags",
         "mode": 2147483648
     },
@@ -175,6 +831,114 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
     },
     {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/==4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/==5/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=0/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=0/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=1/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=1/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=2/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=2/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=3/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=3/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/People/tags/rafter2/ratings/\u003e=4/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags/People/tags/rafter2/tags",
         "mode": 2147483648
     },
@@ -184,6 +948,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -199,6 +1011,54 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Black/tags",
         "mode": 2147483648
     },
@@ -211,6 +1071,54 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Blue/tags",
         "mode": 2147483648
     },
@@ -220,6 +1128,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Gray/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -250,6 +1206,94 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
     },
     {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/==0/f5e76142783d0c7466b4bcc8fcc9afff.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/==5/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=0/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=0/f5e76142783d0c7466b4bcc8fcc9afff.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=1/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=2/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=3/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/ratings/\u003e=4/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Green/tags",
         "mode": 2147483648
     },
@@ -259,6 +1303,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Magenta/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -284,6 +1376,84 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
     },
     {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/==4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/\u003e=0/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/\u003e=1/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/\u003e=2/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/\u003e=3/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/ratings/\u003e=4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label None/tags",
         "mode": 2147483648
     },
@@ -293,6 +1463,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Orange/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -323,6 +1541,94 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03331.jpg"
     },
     {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/==0/fa1f19e1bc9216e68689acd11044b0ed.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03331.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/==5/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=0/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=0/fa1f19e1bc9216e68689acd11044b0ed.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03331.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=1/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=2/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=3/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/ratings/\u003e=4/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Red/tags",
         "mode": 2147483648
     },
@@ -332,6 +1638,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label White/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -347,6 +1701,54 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Color Label Yellow/tags",
         "mode": 2147483648
     },
@@ -356,6 +1758,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Current Version/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -371,6 +1821,54 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Resolving History/tags",
         "mode": 2147483648
     },
@@ -383,6 +1881,54 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Need Tagging History Graph/tags",
         "mode": 2147483648
     },
@@ -392,6 +1938,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Accepted/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -447,6 +2041,164 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03331.jpg"
     },
     {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==0/f5e76142783d0c7466b4bcc8fcc9afff.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==0/fa1f19e1bc9216e68689acd11044b0ed.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03331.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==5/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/==5/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=0/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=0/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=0/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=0/f5e76142783d0c7466b4bcc8fcc9afff.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=0/fa1f19e1bc9216e68689acd11044b0ed.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03331.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=1/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=1/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=1/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=2/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=2/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=2/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=3/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=3/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=3/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=4/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/ratings/\u003e=4/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label None/tags",
         "mode": 2147483648
     },
@@ -456,6 +2208,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Pending/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -471,6 +2271,54 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Pick Label Rejected/tags",
         "mode": 2147483648
     },
@@ -480,6 +2328,54 @@
     },
     {
         "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/_Digikam_Internal_Tags_/tags/Version Always Visible/ratings/\u003e=4",
         "mode": 2147483648
     },
     {
@@ -525,6 +2421,144 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
     },
     {
+        "path": "$MOUNT_POINT/tags/activity/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/==4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/==5/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/==5/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=0/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=0/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=0/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=1/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=1/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=1/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=2/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=2/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=2/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=3/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=3/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=3/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=4/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/ratings/\u003e=4/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags/activity/tags",
         "mode": 2147483648
     },
@@ -550,6 +2584,54 @@
         "path": "$MOUNT_POINT/tags/activity/tags/skiing/photos/d5b701b4043c51007430119971b17ae2.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album2/DSC_0196.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/skiing/ratings/\u003e=4",
+        "mode": 2147483648
     },
     {
         "path": "$MOUNT_POINT/tags/activity/tags/skiing/tags",
@@ -579,6 +2661,144 @@
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
     },
     {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/==4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/==5/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/==5/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=0/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=0/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=0/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=1/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=1/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=1/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=2/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=2/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=2/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=3/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=3/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=3/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=4/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/ratings/\u003e=4/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
         "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags",
         "mode": 2147483648
     },
@@ -592,6 +2812,84 @@
     },
     {
         "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/photos/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/==5/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/\u003e=0/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/\u003e=1/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/\u003e=2/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/\u003e=3/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/kayaking/ratings/\u003e=4/35f0ac735f2e0f585cac5b918bf98bf3.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
     },
@@ -614,6 +2912,114 @@
     },
     {
         "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/photos/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/==0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/==1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/==2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/==3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/==4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/==4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/==5",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/==5/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=0",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=0/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=0/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=1",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=1/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=1/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=2",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=2/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=2/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=3",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=3/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=3/de7303f2c490dc1b3fe23b0e17277542.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=4",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=4/8c91175a9a7cac20d821835e92091154.jpg",
+        "mode": 134217728,
+        "linkTarget": "$LIBRARY_ROOT/album1/GRAND_01471.jpg"
+    },
+    {
+        "path": "$MOUNT_POINT/tags/activity/tags/watersports/tags/rafting/ratings/\u003e=4/de7303f2c490dc1b3fe23b0e17277542.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
     },

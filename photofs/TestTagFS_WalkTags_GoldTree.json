@@ -12,6 +12,10 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/a/ratings",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/a/tags",
         "mode": 2147483648
     },
@@ -21,6 +25,10 @@
     },
     {
         "path": "$MOUNT_POINT/a/tags/a/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/a/ratings",
         "mode": 2147483648
     },
     {
@@ -36,6 +44,10 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/a/tags/b/ratings",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/a/tags/b/tags",
         "mode": 2147483648
     },
@@ -45,6 +57,10 @@
     },
     {
         "path": "$MOUNT_POINT/a/tags/c/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/c/ratings",
         "mode": 2147483648
     },
     {
@@ -60,6 +76,10 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/b/ratings",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/b/tags",
         "mode": 2147483648
     },
@@ -69,6 +89,10 @@
     },
     {
         "path": "$MOUNT_POINT/b/tags/a/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags/a/ratings",
         "mode": 2147483648
     },
     {
@@ -84,6 +108,10 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/b/tags/b/ratings",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/b/tags/b/tags",
         "mode": 2147483648
     },
@@ -96,6 +124,10 @@
         "mode": 2147483648
     },
     {
+        "path": "$MOUNT_POINT/b/tags/c/ratings",
+        "mode": 2147483648
+    },
+    {
         "path": "$MOUNT_POINT/b/tags/c/tags",
         "mode": 2147483648
     },
@@ -105,6 +137,10 @@
     },
     {
         "path": "$MOUNT_POINT/c/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/c/ratings",
         "mode": 2147483648
     },
     {

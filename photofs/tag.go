@@ -65,9 +65,11 @@ func (n *tagNode) INode(ctx context.Context) (fs.InodeEmbedder, error) {
 }
 
 func (n *tagNode) Children(ctx context.Context) (map[string]Node, error) {
+	tagSelector := types.HasTag{Tag: n.tag}
 	childrenNodes := []Node{
 		&childTagsNode{tagNodeInfo: n.tagNodeInfo},
-		&childPhotosNode{tagNodeInfo: n.tagNodeInfo},
+		&ratingsParentNode{ratingsParentNodeInfo{db: n.db, baseSelector: tagSelector}},
+		&queryNode{queryNodeInfo{db: n.db, name: "photos", query: types.Query{Selector: tagSelector}}},
 	}
 	ignoreDups := false
 	return nodeSliceToNodeMap(childrenNodes, ignoreDups)
@@ -99,35 +101,6 @@ func (n *childTagsNode) Children(ctx context.Context) (map[string]Node, error) {
 		return nil, fmt.Errorf("failed to get tags that are children of tag %q: %w", path.Join(n.tag.Path...), err)
 	}
 	return tagSliceToNodeMap(n.db, children)
-}
-
-type childPhotosNode struct {
-	tagNodeInfo
-}
-
-var _ = (Node)((*childPhotosNode)(nil))
-var _ = (DirNode)((*childPhotosNode)(nil))
-
-func (n *childPhotosNode) Name() string {
-	return "photos"
-}
-
-func (n *childPhotosNode) Mode() uint32 {
-	return fuse.S_IFDIR
-}
-
-func (n *childPhotosNode) INode(ctx context.Context) (fs.InodeEmbedder, error) {
-	return NewDirINode(ctx, n)
-}
-
-func (n *childPhotosNode) Children(ctx context.Context) (map[string]Node, error) {
-
-	q := types.Query{Selector: types.HasTag{Tag: n.tag}}
-	children, err := n.db.Photos(ctx, q)
-	if err != nil {
-		return nil, fmt.Errorf("failed to get photos that are children of tag %q: %w", path.Join(n.tag.Path...), err)
-	}
-	return photoSliceToNodeMap(children)
 }
 
 func tagSliceToNodeMap(db db.DB, tagSlice []types.Tag) (map[string]Node, error) {
