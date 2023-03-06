@@ -169,37 +169,9 @@ func TestTagFS_WalkTags(t *testing.T) {
 
 	actTreeInfo, err := testtools.Walk(mountPoint)
 	assert.Nil(err)
-	expTreeInfo := []testtools.FileInfo{
-		testtools.MakeDirInfo(mountPoint),
-		testtools.MakeDirInfo(mountPoint, "a"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags"),
-		testtools.MakeDirInfo(mountPoint, "a", "photos"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "a"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "b"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "c"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "a", "tags"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "b", "tags"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "c", "tags"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "a", "photos"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "b", "photos"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "c", "photos"),
-		testtools.MakeDirInfo(mountPoint, "b"),
-		testtools.MakeDirInfo(mountPoint, "b", "tags"),
-		testtools.MakeDirInfo(mountPoint, "b", "photos"),
-		testtools.MakeDirInfo(mountPoint, "b", "tags", "a"),
-		testtools.MakeDirInfo(mountPoint, "b", "tags", "b"),
-		testtools.MakeDirInfo(mountPoint, "b", "tags", "c"),
-		testtools.MakeDirInfo(mountPoint, "b", "tags", "a", "tags"),
-		testtools.MakeDirInfo(mountPoint, "b", "tags", "b", "tags"),
-		testtools.MakeDirInfo(mountPoint, "b", "tags", "c", "tags"),
-		testtools.MakeDirInfo(mountPoint, "b", "tags", "a", "photos"),
-		testtools.MakeDirInfo(mountPoint, "b", "tags", "b", "photos"),
-		testtools.MakeDirInfo(mountPoint, "b", "tags", "c", "photos"),
-		testtools.MakeDirInfo(mountPoint, "c"),
-		testtools.MakeDirInfo(mountPoint, "c", "tags"),
-		testtools.MakeDirInfo(mountPoint, "c", "photos"),
-	}
-
+	testtools.ToGoldFileFormat(actTreeInfo, mountPoint, "NO_LIBRARY_NEEDED_SINCE_NO_PHOTOS")
+	updateGold := false
+	expTreeInfo := testtools.GetOrUpdateGoldFile("./"+t.Name()+"_GoldTree.json", actTreeInfo, updateGold)
 	assert.ElementsMatch(actTreeInfo, expTreeInfo)
 }
 
@@ -230,26 +202,28 @@ func TestTagFS_WalkPhotos(t *testing.T) {
 		panic(err)
 	}
 
+	libraryRoot := "../test-resources/photos/basic"
+
 	taggedByA1 := types.Photo{
-		Path: filepath.Join(wd, "../test-resources/photos/basic/album1/GRAND_00626.jpg"),
+		Path: filepath.Join(wd, libraryRoot+"/album1/GRAND_00626.jpg"),
 		ID:   "taggedByA1",
 	}
 	taggedByA2 := types.Photo{
-		Path: filepath.Join(wd, "../test-resources/photos/basic/album1/GRAND_00896.jpg"),
+		Path: filepath.Join(wd, libraryRoot+"/album1/GRAND_00896.jpg"),
 		ID:   "taggedByA2",
 	}
 
 	taggedByAA1 := types.Photo{
-		Path: filepath.Join(wd, "../test-resources/photos/basic/album2/DSC_0196.jpg"),
+		Path: filepath.Join(wd, libraryRoot+"/album2/DSC_0196.jpg"),
 		ID:   "taggedByAA1",
 	}
 	taggedByAA2 := types.Photo{
-		Path: filepath.Join(wd, "../test-resources/photos/basic/album2/DSC_0340_BW.jpg"),
+		Path: filepath.Join(wd, libraryRoot+"/album2/DSC_0340_BW.jpg"),
 		ID:   "taggedByAA2",
 	}
 
 	taggedByAandAA := types.Photo{
-		Path: filepath.Join(wd, "../test-resources/photos/basic/album1/GRAND_03476.jpg"),
+		Path: filepath.Join(wd, libraryRoot+"/album1/GRAND_03476.jpg"),
 		ID:   "taggedByAandAA",
 	}
 
@@ -296,29 +270,11 @@ func TestTagFS_WalkPhotos(t *testing.T) {
 
 	actTreeInfo, err := testtools.Walk(mountPoint)
 	assert.Nil(err)
-	expTreeInfo := []testtools.FileInfo{
-		testtools.MakeDirInfo(mountPoint),
-		testtools.MakeDirInfo(mountPoint, "a"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags"),
-		testtools.MakeDirInfo(mountPoint, "a", "photos"),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "photos", "taggedByA1.jpg"}, taggedByA1.Path),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "photos", "taggedByA2.jpg"}, taggedByA2.Path),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "photos", "taggedByAandAA.jpg"}, taggedByAandAA.Path),
 
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "a"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "a", "tags"),
-		testtools.MakeDirInfo(mountPoint, "a", "tags", "a", "photos"),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "tags", "a", "photos", "taggedByAA1.jpg"}, taggedByAA1.Path),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "tags", "a", "photos", "taggedByAA2.jpg"}, taggedByAA2.Path),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "a", "tags", "a", "photos", "taggedByAandAA.jpg"}, taggedByAandAA.Path),
-	}
+	testtools.VerifyJpegAreValid(t, actTreeInfo)
 
+	testtools.ToGoldFileFormat(actTreeInfo, mountPoint, libraryRoot)
+	updateGold := false
+	expTreeInfo := testtools.GetOrUpdateGoldFile("./"+t.Name()+"_GoldTree.json", actTreeInfo, updateGold)
 	assert.ElementsMatch(actTreeInfo, expTreeInfo)
-
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "a", "photos", "taggedByA1.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "a", "photos", "taggedByA2.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "a", "photos", "taggedByAandAA.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "a", "tags", "a", "photos", "taggedByAA1.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "a", "tags", "a", "photos", "taggedByAA2.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "a", "tags", "a", "photos", "taggedByAandAA.jpg")))
 }
