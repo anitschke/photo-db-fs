@@ -1,0 +1,114 @@
+[
+    {
+        "path": "$MOUNT_POINT",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/a",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/a/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/a/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/b",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/b/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/b/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/c",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/c/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/a/tags/c/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags/a",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags/a/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags/a/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags/b",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags/b/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags/b/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags/c",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags/c/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/b/tags/c/tags",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/c",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/c/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/c/tags",
+        "mode": 2147483648
+    }
+]

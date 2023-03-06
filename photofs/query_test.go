@@ -110,26 +110,28 @@ func TestQueriesFS_WalkPhotos(t *testing.T) {
 		panic(err)
 	}
 
+	libraryRoot := filepath.Join(wd, "..", "test-resources", "photos", "basic")
+
 	photo_q1 := types.Photo{
-		Path: filepath.Join(wd, "../test-resources/photos/basic/album1/GRAND_00626.jpg"),
+		Path: filepath.Join(libraryRoot, "album1", "GRAND_00626.jpg"),
 		ID:   "photo_q1",
 	}
 	photo_q2 := types.Photo{
-		Path: filepath.Join(wd, "../test-resources/photos/basic/album1/GRAND_00896.jpg"),
+		Path: filepath.Join(libraryRoot, "album1", "GRAND_00896.jpg"),
 		ID:   "photo_q2",
 	}
 
 	photo_q3 := types.Photo{
-		Path: filepath.Join(wd, "../test-resources/photos/basic/album2/DSC_0196.jpg"),
+		Path: filepath.Join(libraryRoot, "album2", "DSC_0196.jpg"),
 		ID:   "photo_q3",
 	}
 	photo_q1_q2 := types.Photo{
-		Path: filepath.Join(wd, "../test-resources/photos/basic/album2/DSC_0340_BW.jpg"),
+		Path: filepath.Join(libraryRoot, "album2", "DSC_0340_BW.jpg"),
 		ID:   "photo_q1_q2",
 	}
 
 	photo_q1_q3 := types.Photo{
-		Path: filepath.Join(wd, "../test-resources/photos/basic/album1/GRAND_03476.jpg"),
+		Path: filepath.Join(libraryRoot, "album1", "GRAND_03476.jpg"),
 		ID:   "photo_q1_q3",
 	}
 
@@ -182,30 +184,11 @@ func TestQueriesFS_WalkPhotos(t *testing.T) {
 
 	actTreeInfo, err := testtools.Walk(mountPoint)
 	assert.Nil(err)
-	expTreeInfo := []testtools.FileInfo{
-		testtools.MakeDirInfo(mountPoint),
 
-		testtools.MakeDirInfo(mountPoint, "query1"),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "query1", "photo_q1.jpg"}, photo_q1.Path),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "query1", "photo_q1_q2.jpg"}, photo_q1_q2.Path),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "query1", "photo_q1_q3.jpg"}, photo_q1_q3.Path),
+	testtools.VerifyJpegAreValid(t, actTreeInfo)
 
-		testtools.MakeDirInfo(mountPoint, "query2"),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "query2", "photo_q2.jpg"}, photo_q2.Path),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "query2", "photo_q1_q2.jpg"}, photo_q1_q2.Path),
-
-		testtools.MakeDirInfo(mountPoint, "query3"),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "query3", "photo_q3.jpg"}, photo_q3.Path),
-		testtools.MakeSymlinkInfo([]string{mountPoint, "query3", "photo_q1_q3.jpg"}, photo_q1_q3.Path),
-	}
-
+	testtools.ToGoldFileFormat(actTreeInfo, mountPoint, libraryRoot)
+	updateGold := false
+	expTreeInfo := testtools.GetOrUpdateGoldFile("./"+t.Name()+"_GoldTree.json", actTreeInfo, updateGold)
 	assert.ElementsMatch(actTreeInfo, expTreeInfo)
-
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "query1", "photo_q1.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "query1", "photo_q1_q2.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "query1", "photo_q1_q3.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "query2", "photo_q2.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "query2", "photo_q1_q2.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "query3", "photo_q3.jpg")))
-	assert.True(testtools.IsJpeg(filepath.Join(mountPoint, "query3", "photo_q1_q3.jpg")))
 }
