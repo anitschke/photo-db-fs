@@ -15,6 +15,7 @@
       "**/digikam4.db", 
       "recognition.db", 
       "similarity.db", 
-      "thumbnails-digikam.db"
+      "thumbnails-digikam.db",
+      "*GoldTree.json"
     ]
   }
