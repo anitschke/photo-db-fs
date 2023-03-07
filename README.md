@@ -1,7 +1,17 @@
 # photo-db-fs
 [![Release](https://github.com/anitschke/photo-db-fs/actions/workflows/release.yml/badge.svg)](https://github.com/anitschke/photo-db-fs/actions/workflows/release.yml) [![CI](https://github.com/anitschke/photo-db-fs/actions/workflows/ci.yml/badge.svg)](https://github.com/anitschke/photo-db-fs/actions/workflows/ci.yml) ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/anitschke/photo-db-fs) [![Go Report Card](https://goreportcard.com/badge/github.com/anitschke/photo-db-fs)](https://goreportcard.com/report/github.com/anitschke/photo-db-fs)
 
-`photo-db-fs` is a FUSE virtual file system for Linux that exposes a photo database as a file system. At the moment it only supports digiKam but is built to be extensible so as to support other photo management programs in the future. It currently supports exposing the entire tag hierarchy as a file system and also supports adding custom queries where the results of the query are exposed as a file system.
+`photo-db-fs` is a FUSE virtual file system for Linux that exposes a photo database as a file system. At the moment it only supports digiKam but is built to be extensible so as to support other photo management programs in the future. It currently supports exposing the entire tag hierarchy as a file system, grouping photos by rating, and also supports adding custom queries where the results of the query are exposed as a file system.
+
+
+
+## Uses
+
+This project grew out of my desire to have my desktop background cycle through all of my favorite photos although it has many other uses as well. `photo-db-fs` is great for any situation where you want a directory of your photos automatically organized by photo tags and/or ratings:
+* Have your desktop background cycle through your favorite photos
+* Have a digital picture frame cycle through a subset of your photos
+* Use [`rclone`](https://rclone.org/) on a cron job to push a subset of your photos out Google Photos for your Chromecast background on your TV
+
 
 ## Installation
 ### GitHub Release
