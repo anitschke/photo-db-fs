@@ -1,5 +1,6 @@
 anitschk
 anitschke
+Chromecast
 digikam
 digiKam
 digikamtestresources
