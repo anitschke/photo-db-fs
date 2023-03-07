@@ -35,20 +35,16 @@ func (n *rootQueriesNode) INode(ctx context.Context) (fs.InodeEmbedder, error) {
 func (n *rootQueriesNode) Children(ctx context.Context) (map[string]Node, error) {
 	nodes := make([]Node, 0, len(n.queries))
 	for _, q := range n.queries {
-		nodes = append(nodes, &queryNode{queryNodeInfo: queryNodeInfo{db: n.db, name: q.Name, query: q.Query}})
+		nodes = append(nodes, &queryNode{db: n.db, name: q.Name, query: q.Query})
 	}
 	ignoreDups := false
 	return nodeSliceToNodeMap(nodes, ignoreDups)
 }
 
-type queryNodeInfo struct {
+type queryNode struct {
 	name  string
 	query types.Query
 	db    db.DB
-}
-
-type queryNode struct {
-	queryNodeInfo
 }
 
 var _ = (Node)((*queryNode)(nil))

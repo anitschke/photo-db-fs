@@ -25,7 +25,7 @@ func (n *rootNode) Children(ctx context.Context) (map[string]Node, error) {
 	nodes := []Node{
 		&rootTagsNode{db: n.db},
 		&rootQueriesNode{db: n.db, queries: n.queries},
-		&ratingsParentNode{ratingsParentNodeInfo: ratingsParentNodeInfo{db: n.db}},
+		&ratingsParentNode{db: n.db},
 	}
 	ignoreDups := false
 	return nodeSliceToNodeMap(nodes, ignoreDups)

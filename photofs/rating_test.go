@@ -19,12 +19,12 @@ import (
 )
 
 func rootRatingInode(ctx context.Context, db db.DB) (fs.InodeEmbedder, error) {
-	n := ratingsParentNode{ratingsParentNodeInfo: ratingsParentNodeInfo{db: db}}
+	n := ratingsParentNode{db: db}
 	return n.INode(ctx)
 }
 
 func nestedRatingInode(ctx context.Context, db db.DB, baseSelector types.Selector) (fs.InodeEmbedder, error) {
-	n := ratingsParentNode{ratingsParentNodeInfo: ratingsParentNodeInfo{db: db, baseSelector: baseSelector}}
+	n := ratingsParentNode{db: db, baseSelector: baseSelector}
 	return n.INode(ctx)
 }
 
