@@ -10,13 +10,9 @@ import (
 	"github.com/hanwen/go-fuse/v2/fuse"
 )
 
-type ratingsParentNodeInfo struct {
+type ratingsParentNode struct {
 	baseSelector types.Selector
 	db           db.DB
-}
-
-type ratingsParentNode struct {
-	ratingsParentNodeInfo
 }
 
 var _ = (Node)((*ratingsParentNode)(nil))
@@ -80,5 +76,5 @@ func newRatingNode(operator types.RelationalOperator, rating float64, baseSelect
 		Selector: selector,
 	}
 
-	return &queryNode{queryNodeInfo{db: db, name: name, query: query}}
+	return &queryNode{db: db, name: name, query: query}
 }

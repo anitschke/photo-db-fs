@@ -68,8 +68,8 @@ func (n *tagNode) Children(ctx context.Context) (map[string]Node, error) {
 	tagSelector := types.HasTag{Tag: n.tag}
 	childrenNodes := []Node{
 		&childTagsNode{tagNodeInfo: n.tagNodeInfo},
-		&ratingsParentNode{ratingsParentNodeInfo{db: n.db, baseSelector: tagSelector}},
-		&queryNode{queryNodeInfo{db: n.db, name: "photos", query: types.Query{Selector: tagSelector}}},
+		&ratingsParentNode{db: n.db, baseSelector: tagSelector},
+		&queryNode{db: n.db, name: "photos", query: types.Query{Selector: tagSelector}},
 	}
 	ignoreDups := false
 	return nodeSliceToNodeMap(childrenNodes, ignoreDups)
