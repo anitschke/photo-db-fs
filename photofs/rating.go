@@ -42,9 +42,9 @@ func (n *ratingsParentNode) Children(ctx context.Context) (map[string]Node, erro
 
 	maxRating := ratings[len(ratings)-1]
 	for _, r := range ratings {
-		children = append(children, newRatingNode(types.Equal, r, n.baseSelector, n.db))
+		children = append(children, &ratingNode{baseSelector: n.baseSelector, operator: types.Equal, rating: r, db: n.db})
 		if r != maxRating {
-			children = append(children, newRatingNode(types.GreaterThanOrEqual, r, n.baseSelector, n.db))
+			children = append(children, &ratingNode{baseSelector: n.baseSelector, operator: types.GreaterThanOrEqual, rating: r, db: n.db})
 		}
 	}
 
@@ -52,19 +52,40 @@ func (n *ratingsParentNode) Children(ctx context.Context) (map[string]Node, erro
 	return nodeSliceToNodeMap(children, ignoreDups)
 }
 
-func newRatingNode(operator types.RelationalOperator, rating float64, baseSelector types.Selector, db db.DB) *queryNode {
-	name := string(operator) + strconv.Itoa(int(rating))
+type ratingNode struct {
+	baseSelector types.Selector
+	operator     types.RelationalOperator
+	rating       float64
+	db           db.DB
+}
+
+var _ = (Node)((*ratingNode)(nil))
+var _ = (DirNode)((*ratingNode)(nil))
+
+func (n *ratingNode) Name() string {
+	return string(n.operator) + strconv.Itoa(int(n.rating))
+}
+
+func (n *ratingNode) Mode() uint32 {
+	return fuse.S_IFDIR
+}
+
+func (n *ratingNode) INode(ctx context.Context) (fs.InodeEmbedder, error) {
+	return NewDirINode(ctx, n)
+}
+
+func (n *ratingNode) Children(ctx context.Context) (map[string]Node, error) {
 
 	hasRatingSelector := types.HasRating{
-		Operator: operator,
-		Rating:   rating,
+		Operator: n.operator,
+		Rating:   n.rating,
 	}
 
 	var selector types.Selector
-	if baseSelector != nil {
+	if n.baseSelector != nil {
 		selector = types.And{
 			Operands: []types.Selector{
-				baseSelector,
+				n.baseSelector,
 				hasRatingSelector,
 			},
 		}
@@ -76,5 +97,9 @@ func newRatingNode(operator types.RelationalOperator, rating float64, baseSelect
 		Selector: selector,
 	}
 
-	return &queryNode{db: db, name: name, query: query}
+	childrenNodes := []Node{
+		&queryNode{db: n.db, name: "photos", query: query},
+	}
+	ignoreDups := false
+	return nodeSliceToNodeMap(childrenNodes, ignoreDups)
 }

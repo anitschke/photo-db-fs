@@ -8,12 +8,16 @@
         "mode": 2147483648
     },
     {
-        "path": "$MOUNT_POINT/==1/rated1_1.jpg",
+        "path": "$MOUNT_POINT/==1/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/==1/photos/rated1_1.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
     },
     {
-        "path": "$MOUNT_POINT/==1/rated1_2.jpg",
+        "path": "$MOUNT_POINT/==1/photos/rated1_2.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
     },
@@ -22,12 +26,16 @@
         "mode": 2147483648
     },
     {
-        "path": "$MOUNT_POINT/==2/rated2_1.jpg",
+        "path": "$MOUNT_POINT/==2/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/==2/photos/rated2_1.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album2/DSC_0196.jpg"
     },
     {
-        "path": "$MOUNT_POINT/==2/rated2_2.jpg",
+        "path": "$MOUNT_POINT/==2/photos/rated2_2.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album2/DSC_0340_BW.jpg"
     },
@@ -36,7 +44,11 @@
         "mode": 2147483648
     },
     {
-        "path": "$MOUNT_POINT/==3/rated3.jpg",
+        "path": "$MOUNT_POINT/==3/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/==3/photos/rated3.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
     },
@@ -45,27 +57,31 @@
         "mode": 2147483648
     },
     {
-        "path": "$MOUNT_POINT/\u003e=1/rated1_1.jpg",
+        "path": "$MOUNT_POINT/\u003e=1/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/\u003e=1/photos/rated1_1.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00626.jpg"
     },
     {
-        "path": "$MOUNT_POINT/\u003e=1/rated1_2.jpg",
+        "path": "$MOUNT_POINT/\u003e=1/photos/rated1_2.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_00896.jpg"
     },
     {
-        "path": "$MOUNT_POINT/\u003e=1/rated2_1.jpg",
+        "path": "$MOUNT_POINT/\u003e=1/photos/rated2_1.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album2/DSC_0196.jpg"
     },
     {
-        "path": "$MOUNT_POINT/\u003e=1/rated2_2.jpg",
+        "path": "$MOUNT_POINT/\u003e=1/photos/rated2_2.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album2/DSC_0340_BW.jpg"
     },
     {
-        "path": "$MOUNT_POINT/\u003e=1/rated3.jpg",
+        "path": "$MOUNT_POINT/\u003e=1/photos/rated3.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
     },
@@ -74,17 +90,21 @@
         "mode": 2147483648
     },
     {
-        "path": "$MOUNT_POINT/\u003e=2/rated2_1.jpg",
+        "path": "$MOUNT_POINT/\u003e=2/photos",
+        "mode": 2147483648
+    },
+    {
+        "path": "$MOUNT_POINT/\u003e=2/photos/rated2_1.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album2/DSC_0196.jpg"
     },
     {
-        "path": "$MOUNT_POINT/\u003e=2/rated2_2.jpg",
+        "path": "$MOUNT_POINT/\u003e=2/photos/rated2_2.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album2/DSC_0340_BW.jpg"
     },
     {
-        "path": "$MOUNT_POINT/\u003e=2/rated3.jpg",
+        "path": "$MOUNT_POINT/\u003e=2/photos/rated3.jpg",
         "mode": 134217728,
         "linkTarget": "$LIBRARY_ROOT/album1/GRAND_03476.jpg"
     }
